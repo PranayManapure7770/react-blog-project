@@ -1,1 +1,27 @@
+:root {
+    --color-bg: #f8fafc;
+    /* slate-50 */
+    --color-surface: #ffffff;
+    /* white */
+    --color-border: #e5e7eb;
+    /* gray-200 */
+    --color-text: #0f172a;
+    /* slate-900 */
+    --color-muted: #475569;
+    /* slate-600 */
+    --color-accent: #3b82f6;
+    /* blue-500 */
+    --color-accent-weak: #eff6ff;
+    /* blue-50 */
+}
+
+/* Optional: subtle transitions for theme changes */
+html,
+body,
+#root {
+    background: var(--color-bg);
+    color: var(--color-text);
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
 @import "tailwindcss";

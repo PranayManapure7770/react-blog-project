@@ -13,23 +13,25 @@ import Select from "./Select";
 import PostCard from "./PostCard";
 import AuthLayout from "./AuthLayout";
 import Login from "./Login";
+import ThemeSwitcher from "./header/ThemeSwitcher";
 
 // src/components/index.js
 
 export {
-    Header,
-    Button,
-    Footer,
-    Container,
-    Logo,
-    LogoutButton,
-    RTE,
-    SignupForm,
-    Input,
-    Post,
-    PostForm,
-    Select,
-    PostCard,
-    AuthLayout,
-    Login,
+	Header,
+	Button,
+	Footer,
+	Container,
+	Logo,
+	LogoutButton,
+	RTE,
+	SignupForm,
+	Input,
+	Post,
+	PostForm,
+	Select,
+	PostCard,
+	AuthLayout,
+	Login,
+	ThemeSwitcher,
 };
